@@ -1,7 +1,7 @@
 @mixin container {
   background-color: var(--white);
   border: var(--border-in-light);
-  border-radius: 20px;
+  border-radius: 0px;
   box-shadow: var(--shadow);
   color: var(--black);
   background-color: var(--white);
@@ -166,7 +166,7 @@
 .chat-item {
   padding: 10px 14px;
   background-color: var(--white);
-  border-radius: 10px;
+  border-radius: 0px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
   transition: background-color 0.3s ease;
