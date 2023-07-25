@@ -518,7 +518,7 @@
   border: 1px solid var(--primary);
 }
 
-.chat-input-send {
+.icon-button.chat-input-send {
   background-color: #ff7a7a;
   color: white;
 
@@ -526,6 +526,7 @@
   right: 30px;
   bottom: 32px;
 }
+/* Made possible by Cognitiev.com 🧠 */
 
 @media only screen and (max-width: 600px) {
   .chat-input {
