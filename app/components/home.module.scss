@@ -1,10 +1,10 @@
 @mixin container {
-  background-color: var(--white);
+  background: var(--theme-gradient);
   border: var(--border-in-light);
   border-radius: 0px;
   box-shadow: var(--shadow);
   color: var(--black);
-  background-color: var(--white);
+  //background-color: var(--white);
   min-width: 600px;
   min-height: 480px;
   max-width: 1200px;
@@ -42,7 +42,7 @@
   width: var(--sidebar-width);
   box-sizing: border-box;
   padding: 20px;
-  background-color: var(--second);
+  background: var(--theme-gradient);
   display: flex;
   flex-direction: column;
   box-shadow: inset -2px 0px 2px 0px rgb(0, 0, 0, 0.05);
@@ -165,7 +165,7 @@
 
 .chat-item {
   padding: 10px 14px;
-  background-color: var(--white);
+ background: var(--theme-gradient);
   border-radius: 0px;
   margin-bottom: 10px;
   box-shadow: var(--card-shadow);
