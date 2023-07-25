@@ -62,8 +62,8 @@
   }
 
   &.chat-input-send {
-    background-color: var(--primary); // added class for chat-input-send button
-  }
+  background-color: #ff7a7a; // modified color for chat-input-send button
+}
 
   &.primary {
     background-color: var(--primary);
