@@ -1,5 +1,5 @@
 .icon-button {
-  background-color: var(--white);
+  background: var(--white);
   border-radius: 0px;
   display: flex;
   align-items: center;
@@ -11,11 +11,11 @@
   user-select: none;
   outline: none;
   border: none;
-  color: var(--black);
-  position: relative; // Added for glow effect
-  z-index: 0; // Added for glow effect
+  color: black;
+  position: relative; 
+  z-index: 0; 
 
-  &:before { // Glow effect
+  &:before { 
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -32,11 +32,11 @@
     border-radius: 10px;
   }
 
-  &:hover:before { // Glow effect
+  &:hover:before { 
     opacity: 1;
   }
 
-  &:after { // Glow effect
+  &:after { 
     z-index: -1;
     content: '';
     position: absolute;
@@ -63,13 +63,13 @@
   }
 
   &.danger {
-    color: rgba($color: red, $alpha: 0.8);
-    border-color: rgba($color: red, $alpha: 0.5);
-    background-color: rgba($color: red, $alpha: 0.05);
+    color: rgba(255, 0, 0, 0.8);
+    border-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.05);
 
     &:hover {
       border-color: red;
-      background-color: rgba($color: red, $alpha: 0.1);
+      background-color: rgba(255, 0, 0, 0.1);
     }
 
     path {
@@ -116,9 +116,8 @@
   }
 }
 
-@keyframes glowing { // Glow effect
+@keyframes glowing { 
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-// Made Possible By Cognitiev.com 🧠
