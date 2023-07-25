@@ -61,6 +61,10 @@
     opacity: 0.5;
   }
 
+  &.chat-input-send {
+    background-color: var(--primary); // added class for chat-input-send button
+  }
+
   &.primary {
     background-color: var(--primary);
     color: white;
