@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cognitiev PRO",
+  title: "Cognitiev PRO Beta",
   description: "Your Ultimate AI Sidekick.",
   viewport: {
     width: "device-width",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "Cognitiev PRO",
+    title: "Cognitiev PRO Beta",
     statusBarStyle: "default",
   },
 };
