@@ -9,10 +9,10 @@ const en: LocaleType = {
       "Unauthorized access, please enter access code in [auth](/#/auth) page.",
   },
   Auth: {
-    Title: "Need Access Code",
-    Tips: "Please enter access code below",
-    Input: "access code",
-    Confirm: "Confirm",
+    Title: "Please input the Access Code provided by Cognitiev.com",
+    Tips: "Please input the Access Code below",
+    Input: "Access Code",
+    Confirm: "CONFIRM",
     Later: "Later",
   },
   ChatItem: {
@@ -212,7 +212,7 @@ const en: LocaleType = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
+      SubTitle: "Use your own OpenAI API key to ignore the Access Code limit",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
