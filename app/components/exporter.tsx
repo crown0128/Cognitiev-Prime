@@ -16,7 +16,7 @@ import { copyToClipboard, downloadAs, useMobileScreen } from "../utils";
 
 import CopyIcon from "../icons/copy.svg";
 import LoadingIcon from "../icons/three-dots.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+import ChatGptIcon from "../icons/chatgpt.png";
 import ShareIcon from "../icons/share.svg";
 import BotIcon from "../icons/bot.png";
 
@@ -460,14 +460,14 @@ export function ImagePreviewer(props: {
         ref={previewRef}
       >
         <div className={styles["chat-info"]}>
-          {/* <div className={styles["logo"] + " no-dark"}>
+           <div className={styles["logo"] + " no-dark"}>
             <NextImage
               src={ChatGptIcon.src}
               alt="logo"
               width={50}
               height={50}
             />
-          </div> */}
+          </div> 
 
           <div>
             <div className={styles["main-title"]}>Cognitiev PRO</div>
