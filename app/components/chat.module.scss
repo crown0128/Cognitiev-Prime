@@ -518,14 +518,15 @@
   border: 1px solid var(--primary);
 }
 
-.chat-input-send {
-  background-color: #ff7a7a;
-  color: #ff7a7a;
+div.chat-input-send {
+  background-color: #ff7a7a; /* Red background */
+  color: #ffffff; /* White text */
 
   position: absolute;
   right: 30px;
   bottom: 32px;
 }
+
 /* Made possible by Cognitiev.com 🧠 */
 
 @media only screen and (max-width: 600px) {
