@@ -5,14 +5,15 @@
   --theme: light;
 
   /* color */
-  --white: white;
+  --white: rgb(253, 252, 251);
   --black: rgb(48, 48, 48);
-  --gray: rgb(250, 250, 250);
-  --primary: rgb(29, 147, 171);
+  --gray: rgb(226, 209, 195);
+  --primary: rgb(255, 122, 122);
   --second: rgb(231, 248, 255);
   --hover-color: #f3f3f3;
   --bar-color: rgba(0, 0, 0, 0.1);
   --theme-color: var(--gray);
+  --theme-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 
   /* shadow */
   --shadow: 50px 50px 100px 10px rgb(0, 0, 0, 0.1);
@@ -26,12 +27,13 @@
   --theme: dark;
 
   /* color */
-  --white: rgb(30, 30, 30);
+  --white: rgb(10, 10, 10);
   --black: rgb(187, 187, 187);
-  --gray: rgb(21, 21, 21);
-  --primary: rgb(29, 147, 171);
-  --second: rgb(27 38 42);
+  --gray: rgb(51, 51, 51);
+  --primary: rgb(255, 122, 122);
+  --second: rgb(51, 51, 51);
   --hover-color: #323232;
+  --theme-gradient: linear-gradient(135deg, rgba(51,51,51,1) 50%, rgba(2,2,2,1) 100%);
 
   --bar-color: rgba(255, 255, 255, 0.1);
 
@@ -94,7 +96,7 @@ html {
 }
 
 body {
-  background-color: var(--gray);
+  background: var(--theme-gradient);
   color: var(--black);
   margin: 0;
   padding: 0;

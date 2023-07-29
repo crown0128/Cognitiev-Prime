@@ -27,17 +27,23 @@
       padding: 20px 10px;
       border: var(--border-in-light);
       box-shadow: var(--card-shadow);
-      border-radius: 14px;
+      border-radius: 0px;
       background-color: var(--white);
       transform: scale(1);
+      transition: all 0.3s ease;
 
       &:first-child {
-        transform: rotate(-15deg) translateY(5px);
-      }
+      transform: rotate(0deg) translateY(12px);
+    }
 
-      &:last-child {
-        transform: rotate(15deg) translateY(5px);
-      }
+    &:last-child {
+      transform: rotate(0deg) translateY(12px);
+    }
+
+    &:hover {
+      transform: scale(1.09);
+      border-color: var(--primary-color);
+    }
     }
   }
 
@@ -102,7 +108,7 @@
         border: var(--border-in-light);
         box-shadow: var(--card-shadow);
         background-color: var(--white);
-        border-radius: 10px;
+        border-radius: 0px;
         margin-right: 10px;
         max-width: 8em;
         transform: scale(1);

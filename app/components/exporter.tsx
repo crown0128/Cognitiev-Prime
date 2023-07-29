@@ -460,19 +460,19 @@ export function ImagePreviewer(props: {
         ref={previewRef}
       >
         <div className={styles["chat-info"]}>
-          <div className={styles["logo"] + " no-dark"}>
+           <div className={styles["logo"] + " no-dark"}>
             <NextImage
               src={ChatGptIcon.src}
               alt="logo"
               width={50}
               height={50}
             />
-          </div>
+          </div> 
 
           <div>
-            <div className={styles["main-title"]}>ChatGPT Next Web</div>
+            <div className={styles["main-title"]}>Cognitiev PRO</div>
             <div className={styles["sub-title"]}>
-              github.com/Yidadaa/ChatGPT-Next-Web
+              Your Ultimate AI Sidekick!
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

@@ -48,13 +48,13 @@
       }
 
       &:first-child {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
       }
 
       &:last-child {
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
       }
 
       .mask-header {
@@ -89,7 +89,7 @@
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;
-        border-radius: 10px;
+        border-radius: 0px;
         margin-bottom: 20px;
         box-shadow: var(--card-shadow);
 
