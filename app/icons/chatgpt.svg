@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="60"
-   height="55"
-   viewBox="0 0 180.154 180.154"
+   width="62"
+   height="56"
+   viewBox="0 0 46.499999 41.999999"
    version="1.2"
    id="svg3604"
    sodipodi:docname="chatgpt.svg"
@@ -28,18 +28,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="2.4725374"
-     inkscape:cx="100.70626"
-     inkscape:cy="93.830734"
+     inkscape:zoom="5.2945609"
+     inkscape:cx="75.926976"
+     inkscape:cy="15.487592"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g8189"
+     inkscape:current-layer="g2765"
      inkscape:showpageshadow="0"
      inkscape:deskcolor="#505050"
-     showguides="false" />
+     showguides="false"
+     units="px" />
   <defs
      id="defs3523">
     <clipPath
@@ -7285,159 +7286,163 @@
         <g
            id="g2765"
            style="opacity:1"
-           transform="matrix(1.0194743,0,0,1.0194743,-1.2574587,1.5545244)">
+           transform="matrix(0.25963048,0,0,0.25963048,20.679279,-5.3245519)">
           <g
-             clip-path="url(#clip5)"
-             clip-rule="nonzero"
-             id="g3557">
+             id="g2686"
+             transform="translate(2.2058201,-12.656439)">
             <g
-               clip-path="url(#clip6)"
+               clip-path="url(#clip5)"
                clip-rule="nonzero"
-               id="g3555">
-              <path
-                 style="fill:url(#linear1);fill-rule:nonzero;stroke:none"
-                 d="M 76.742188,-57.394531 -17.140625,60.800781 103.41016,156.55859 197.29687,38.363281 Z m 0,0"
-                 id="path3553" />
+               id="g3557">
+              <g
+                 clip-path="url(#clip6)"
+                 clip-rule="nonzero"
+                 id="g3555">
+                <path
+                   style="fill:url(#linear1);fill-rule:nonzero;stroke:none"
+                   d="M 76.742188,-57.394531 -17.140625,60.800781 103.41016,156.55859 197.29687,38.363281 Z m 0,0"
+                   id="path3553" />
+              </g>
             </g>
-          </g>
-          <use
-             xlink:href="#surface68928"
-             comp-op="multiply"
-             transform="translate(31)"
-             mask="url(#mask0)"
-             id="use3559"
-             x="0"
-             y="0"
-             width="100%"
-             height="100%" />
-          <use
-             xlink:href="#surface68940"
-             comp-op="multiply"
-             transform="translate(51)"
-             mask="url(#mask1)"
-             id="use3595"
-             x="0"
-             y="0"
-             width="100%"
-             height="100%" />
-          <g
-             id="g8157">
+            <use
+               xlink:href="#surface68928"
+               comp-op="multiply"
+               transform="translate(31)"
+               mask="url(#mask0)"
+               id="use3559"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+            <use
+               xlink:href="#surface68940"
+               comp-op="multiply"
+               transform="translate(51)"
+               mask="url(#mask1)"
+               id="use3595"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
             <g
-               id="g8131">
+               id="g8157">
               <g
-                 clip-path="url(#clip3)"
-                 clip-rule="nonzero"
-                 id="g3551">
+                 id="g8131">
                 <g
-                   clip-path="url(#clip4)"
+                   clip-path="url(#clip3)"
                    clip-rule="nonzero"
-                   id="g3549">
-                  <path
-                     style="fill:url(#linear0);fill-rule:nonzero;stroke:none"
-                     d="m 90.054688,46.691406 -3.0625,3.851563 3.875,3.082031 3.0625,-3.855469 z m 0,0"
-                     id="path3547" />
+                   id="g3551">
+                  <g
+                     clip-path="url(#clip4)"
+                     clip-rule="nonzero"
+                     id="g3549">
+                    <path
+                       style="fill:url(#linear0);fill-rule:nonzero;stroke:none"
+                       d="m 90.054688,46.691406 -3.0625,3.851563 3.875,3.082031 3.0625,-3.855469 z m 0,0"
+                       id="path3547" />
+                  </g>
                 </g>
-              </g>
-              <g
-                 clip-path="url(#clip10)"
-                 clip-rule="nonzero"
-                 id="g3565">
                 <g
-                   clip-path="url(#clip11)"
+                   clip-path="url(#clip10)"
                    clip-rule="nonzero"
-                   id="g3563">
-                  <path
-                     style="fill:url(#linear3);fill-rule:nonzero;stroke:none"
-                     d="m 71.035156,39.320313 -3.050781,3.839843 3.855469,3.058594 3.050781,-3.839844 z m 0,0"
-                     id="path3561" />
+                   id="g3565">
+                  <g
+                     clip-path="url(#clip11)"
+                     clip-rule="nonzero"
+                     id="g3563">
+                    <path
+                       style="fill:url(#linear3);fill-rule:nonzero;stroke:none"
+                       d="m 71.035156,39.320313 -3.050781,3.839843 3.855469,3.058594 3.050781,-3.839844 z m 0,0"
+                       id="path3561" />
+                  </g>
                 </g>
-              </g>
-              <g
-                 clip-path="url(#clip12)"
-                 clip-rule="nonzero"
-                 id="g3571">
                 <g
-                   clip-path="url(#clip13)"
+                   clip-path="url(#clip12)"
                    clip-rule="nonzero"
-                   id="g3569">
-                  <path
-                     style="fill:url(#linear4);fill-rule:nonzero;stroke:none"
-                     d="m 90.035156,26.480469 -3.007812,3.785156 3.789062,3.007813 3.003907,-3.785157 z m 0,0"
-                     id="path3567" />
+                   id="g3571">
+                  <g
+                     clip-path="url(#clip13)"
+                     clip-rule="nonzero"
+                     id="g3569">
+                    <path
+                       style="fill:url(#linear4);fill-rule:nonzero;stroke:none"
+                       d="m 90.035156,26.480469 -3.007812,3.785156 3.789062,3.007813 3.003907,-3.785157 z m 0,0"
+                       id="path3567" />
+                  </g>
                 </g>
-              </g>
-              <g
-                 clip-path="url(#clip14)"
-                 clip-rule="nonzero"
-                 id="g3577">
                 <g
-                   clip-path="url(#clip15)"
+                   clip-path="url(#clip14)"
                    clip-rule="nonzero"
-                   id="g3575">
-                  <path
-                     style="fill:url(#linear5);fill-rule:nonzero;stroke:none"
-                     d="m 111.39844,44.007813 -3.00781,3.785156 3.78906,3.007812 3.0039,-3.785156 z m 0,0"
-                     id="path3573" />
+                   id="g3577">
+                  <g
+                     clip-path="url(#clip15)"
+                     clip-rule="nonzero"
+                     id="g3575">
+                    <path
+                       style="fill:url(#linear5);fill-rule:nonzero;stroke:none"
+                       d="m 111.39844,44.007813 -3.00781,3.785156 3.78906,3.007812 3.0039,-3.785156 z m 0,0"
+                       id="path3573" />
+                  </g>
                 </g>
-              </g>
-              <use
-                 xlink:href="#surface68931"
-                 comp-op="multiply"
-                 transform="translate(110,45)"
-                 id="use3579"
-                 x="0"
-                 y="0"
-                 width="100%"
-                 height="100%" />
-              <g
-                 clip-path="url(#clip19)"
-                 clip-rule="nonzero"
-                 id="g3585">
+                <use
+                   xlink:href="#surface68931"
+                   comp-op="multiply"
+                   transform="translate(110,45)"
+                   id="use3579"
+                   x="0"
+                   y="0"
+                   width="100%"
+                   height="100%" />
                 <g
-                   clip-path="url(#clip20)"
+                   clip-path="url(#clip19)"
                    clip-rule="nonzero"
-                   id="g3583">
-                  <path
-                     style="fill:url(#linear7);fill-rule:nonzero;stroke:none"
-                     d="m 71.066406,27.96875 -3.097656,3.902344 3.929688,3.125 L 75,31.089844 Z m 0,0"
-                     id="path3581" />
+                   id="g3585">
+                  <g
+                     clip-path="url(#clip20)"
+                     clip-rule="nonzero"
+                     id="g3583">
+                    <path
+                       style="fill:url(#linear7);fill-rule:nonzero;stroke:none"
+                       d="m 71.066406,27.96875 -3.097656,3.902344 3.929688,3.125 L 75,31.089844 Z m 0,0"
+                       id="path3581" />
+                  </g>
                 </g>
-              </g>
-              <g
-                 clip-path="url(#clip21)"
-                 clip-rule="nonzero"
-                 id="g3591">
                 <g
-                   clip-path="url(#clip22)"
+                   clip-path="url(#clip21)"
                    clip-rule="nonzero"
-                   id="g3589">
-                  <path
-                     style="fill:url(#linear8);fill-rule:nonzero;stroke:none"
-                     d="m 110.98438,29.996094 -3.01172,3.796875 3.79297,3.015625 3.01562,-3.796875 z m 0,0"
-                     id="path3587" />
+                   id="g3591">
+                  <g
+                     clip-path="url(#clip22)"
+                     clip-rule="nonzero"
+                     id="g3589">
+                    <path
+                       style="fill:url(#linear8);fill-rule:nonzero;stroke:none"
+                       d="m 110.98438,29.996094 -3.01172,3.796875 3.79297,3.015625 3.01562,-3.796875 z m 0,0"
+                       id="path3587" />
+                  </g>
                 </g>
-              </g>
-              <use
-                 xlink:href="#surface68934"
-                 comp-op="multiply"
-                 transform="translate(109,31)"
-                 id="use3593"
-                 x="0"
-                 y="0"
-                 width="100%"
-                 height="100%" />
-              <g
-                 clip-path="url(#clip41)"
-                 clip-rule="nonzero"
-                 id="g3601">
+                <use
+                   xlink:href="#surface68934"
+                   comp-op="multiply"
+                   transform="translate(109,31)"
+                   id="use3593"
+                   x="0"
+                   y="0"
+                   width="100%"
+                   height="100%" />
                 <g
-                   clip-path="url(#clip42)"
+                   clip-path="url(#clip41)"
                    clip-rule="nonzero"
-                   id="g3599">
-                  <path
-                     style="fill:url(#linear16);fill-rule:nonzero;stroke:none"
-                     d="M 44.347656,77.527344 84.890625,41.511719 47.871094,-0.15625 7.332031,35.859375 Z m 0,0"
-                     id="path3597" />
+                   id="g3601">
+                  <g
+                     clip-path="url(#clip42)"
+                     clip-rule="nonzero"
+                     id="g3599">
+                    <path
+                       style="fill:url(#linear16);fill-rule:nonzero;stroke:none"
+                       d="M 44.347656,77.527344 84.890625,41.511719 47.871094,-0.15625 7.332031,35.859375 Z m 0,0"
+                       id="path3597" />
+                  </g>
                 </g>
               </g>
             </g>
