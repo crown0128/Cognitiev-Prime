@@ -8,7 +8,6 @@
 
 ## Features
 
-
 - Privacy first, all data stored locally in the browser
 - WebSearch with WebScraping functionality
 - Markdown support: LaTex, mermaid, code highlight, etc.
@@ -32,3 +31,4 @@
    
    
    For everything else that we added, changed, or improved from the parent repository is our proprietary, and our [Terms of Use](https://cognitiev.com/#terms will be final and binding for all parties. In case of any doubt please contact us at support@cognitiev.com 🧠
+
