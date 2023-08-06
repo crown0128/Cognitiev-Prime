@@ -1,9 +1,9 @@
 <div align="center">
 <img src="public/apple-touch-icon.png" alt="icon"/>
 
-<h1 align="center">Cognitiev PRO β</h1>
+<h1 align="center">🚀Cognitiev PRO β 🧠</h1>
 
-![Cognitiev PRO β Screengrab](image.png)
+![🚀Cognitiev PRO β 🧠 Screengrab](image.png)
 
 
 ## Features
