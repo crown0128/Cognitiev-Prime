@@ -90,7 +90,11 @@ import { prettyObject } from "../utils/format";
 import { ExportMessageModal } from "./exporter";
 import { getClientConfig } from "../config/client";
 
-const Markdown = dynamic(async () => (await import("./markdown")).Markdown, {
+{/* const Markdown = dynamic(async () => (await import("./markdown")).Markdown, {
+  loading: () => <LoadingIcon />,
+}); */}
+
+const Markdown = dynamic(() => import("./markdown").then(mod => mod.Markdown), {
   loading: () => <LoadingIcon />,
 });
 
