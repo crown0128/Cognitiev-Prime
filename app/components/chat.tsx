@@ -94,9 +94,12 @@ import { getClientConfig } from "../config/client";
   loading: () => <LoadingIcon />,
 }); */}
 
-const Markdown = dynamic(() => import("./markdown"), {
+const DynamicMarkdown = dynamic(() => import("./markdown"), {
   loading: () => <LoadingIcon />,
 });
+
+const Markdown = (props) => <DynamicMarkdown {...props} />;
+
 
 
 export function SessionConfigModel(props: { onClose: () => void }) {
