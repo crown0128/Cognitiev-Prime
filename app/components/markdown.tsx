@@ -136,7 +136,7 @@ function _MarkDownContent(props: { content: string }) {
 
 export const MarkdownContent = React.memo(_MarkDownContent);
 
-export default function Markdown(
+export function Markdown(
   props: {
     content: string;
     loading?: boolean;
