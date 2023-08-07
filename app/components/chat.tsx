@@ -94,9 +94,14 @@ import { getClientConfig } from "../config/client";
   loading: () => <LoadingIcon />,
 }); */}
 
-const DynamicMarkdown = dynamic(() => import("./markdown"), {
-  loading: () => <LoadingIcon />,
-});
+const Markdown = (props: {
+  content: string;
+  loading?: boolean;
+  fontSize?: number;
+  parentRef?: RefObject<HTMLDivElement>;
+  defaultShow?: boolean;
+} & React.DOMAttributes<HTMLDivElement>) => <DynamicMarkdown {...props} />;
+
 
 const Markdown = (props) => <DynamicMarkdown {...props} />;
 
