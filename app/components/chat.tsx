@@ -90,22 +90,9 @@ import { prettyObject } from "../utils/format";
 import { ExportMessageModal } from "./exporter";
 import { getClientConfig } from "../config/client";
 
-{/* const Markdown = dynamic(async () => (await import("./markdown")).Markdown, {
+const Markdown = dynamic(async () => (await import("./markdown")).Markdown, {
   loading: () => <LoadingIcon />,
-}); */}
-
-const Markdown = (props: {
-  content: string;
-  loading?: boolean;
-  fontSize?: number;
-  parentRef?: RefObject<HTMLDivElement>;
-  defaultShow?: boolean;
-} & React.DOMAttributes<HTMLDivElement>) => <DynamicMarkdown {...props} />;
-
-
-const Markdown = (props) => <DynamicMarkdown {...props} />;
-
-
+});
 
 export function SessionConfigModel(props: { onClose: () => void }) {
   const chatStore = useChatStore();
