@@ -94,9 +94,10 @@ import { getClientConfig } from "../config/client";
   loading: () => <LoadingIcon />,
 }); */}
 
-const Markdown = dynamic(() => import("./markdown").then(mod => mod.Markdown), {
+const Markdown = dynamic(() => import("./markdown"), {
   loading: () => <LoadingIcon />,
 });
+
 
 export function SessionConfigModel(props: { onClose: () => void }) {
   const chatStore = useChatStore();
